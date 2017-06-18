@@ -1,0 +1,116 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin_small">12dp</dimen>
+    <dimen name="activity_vertical_margin_half_small">6dp</dimen>
+
+    <dimen name="padding_size_smaller">6dp</dimen>
+    <dimen name="padding_size_small">12dp</dimen>
+    <dimen name="padding_size_normal">16dp</dimen>
+    <dimen name="padding_size_ten">10dp</dimen>
+    <dimen name="padding_size_twenty">20dp</dimen>
+    <dimen name="padding_size_thirty">30dp</dimen>
+    <dimen name="padding_size_forty">40dp</dimen>
+    <dimen name="padding_size_fifty">50dp</dimen>
+    <dimen name="padding_size_sixty">60dp</dimen>
+    <dimen name="padding_size_seventy">70dp</dimen>
+    <dimen name="padding_size_eighty">80dp</dimen>
+    <dimen name="padding_size_ninety">90dp</dimen>
+    <dimen name="padding_size_one_hundred">100dp</dimen>
+    <dimen name="padding_size_one_hundred_and_ten">110dp</dimen>
+    <dimen name="padding_size_one_hundred_and_twenty">120dp</dimen>
+    <dimen name="padding_size_one_hundred_and_thirty">130dp</dimen>
+    <dimen name="padding_size_one_hundred_and_forty">140dp</dimen>
+    <dimen name="padding_size_one_hundred_and_fifty">150dp</dimen>
+    <dimen name="padding_size_one_hundred_and_sixty">160dp</dimen>
+    <dimen name="padding_size_one_hundred_and_seventy">170dp</dimen>
+    <dimen name="padding_size_one_hundred_and_eighty">180dp</dimen>
+    <dimen name="padding_size_one_hundred_and_ninety">190dp</dimen>
+    <dimen name="padding_size_two_hundred">200dp</dimen>
+
+    <dimen name="margin_size_normal">16dp</dimen>
+    <dimen name="margin_size_normal_">-16dp</dimen>
+    <dimen name="margin_size_ten">10dp</dimen>
+    <dimen name="margin_size_twenty">20dp</dimen>
+    <dimen name="margin_size_thirty">30dp</dimen>
+    <dimen name="margin_size_forty">40dp</dimen>
+    <dimen name="margin_size_fifty">50dp</dimen>
+    <dimen name="margin_size_sixty">60dp</dimen>
+    <dimen name="margin_size_seventy">70dp</dimen>
+    <dimen name="margin_size_eighty">80dp</dimen>
+    <dimen name="margin_size_ninety">90dp</dimen>
+    <dimen name="margin_size_one_hundred">100dp</dimen>
+    <dimen name="margin_size_one_hundred_and_ten">110dp</dimen>
+    <dimen name="margin_size_one_hundred_and_twenty">120dp</dimen>
+    <dimen name="margin_size_one_hundred_and_thirty">130dp</dimen>
+    <dimen name="margin_size_one_hundred_and_forty">140dp</dimen>
+    <dimen name="margin_size_one_hundred_and_fifty">150dp</dimen>
+    <dimen name="margin_size_one_hundred_and_sixty">160dp</dimen>
+    <dimen name="margin_size_one_hundred_and_seventy">170dp</dimen>
+    <dimen name="margin_size_one_hundred_and_eighty">180dp</dimen>
+    <dimen name="margin_size_one_hundred_and_ninety">190dp</dimen>
+    <dimen name="margin_size_two_hundred">200dp</dimen>
+
+    <dimen name="view_height_ten">10dp</dimen>
+    <dimen name="view_height_twenty">20dp</dimen>
+    <dimen name="view_height_thirty">30dp</dimen>
+    <dimen name="view_height_forty">40dp</dimen>
+    <dimen name="view_height_fifty">50dp</dimen>
+    <dimen name="view_height_sixty">60dp</dimen>
+    <dimen name="view_height_seventy">70dp</dimen>
+    <dimen name="view_height_eighty">80dp</dimen>
+    <dimen name="view_height_ninety">90dp</dimen>
+    <dimen name="view_height_one_hundred">100dp</dimen>
+    <dimen name="view_height_one_hundred_and_ten">110dp</dimen>
+    <dimen name="view_height_one_hundred_and_twenty">120dp</dimen>
+    <dimen name="view_height_one_hundred_and_thirty">130dp</dimen>
+    <dimen name="view_height_one_hundred_and_forty">140dp</dimen>
+    <dimen name="view_height_one_hundred_and_fifty">150dp</dimen>
+    <dimen name="view_height_one_hundred_and_sixty">160dp</dimen>
+    <dimen name="view_height_one_hundred_and_seventy">170dp</dimen>
+    <dimen name="view_height_one_hundred_and_eighty">180dp</dimen>
+    <dimen name="view_height_one_hundred_and_ninety">190dp</dimen>
+    <dimen name="view_height_two_hundred">200dp</dimen>
+    <dimen name="view_height_two_hundred_and_fifty">250dp</dimen>
+
+    <dimen name="view_width_twenty">20dp</dimen>
+    <dimen name="view_width_thirty">30dp</dimen>
+    <dimen name="view_width_forty">40dp</dimen>
+    <dimen name="view_width_fifty">50dp</dimen>
+    <dimen name="view_width_sixty">60dp</dimen>
+    <dimen name="view_width_seventy">70dp</dimen>
+    <dimen name="view_width_eighty">80dp</dimen>
+    <dimen name="view_width_ninety">90dp</dimen>
+    <dimen name="view_width_one_hundred">100dp</dimen>
+    <dimen name="view_width_one_hundred_and_ten">110dp</dimen>
+    <dimen name="view_width_one_hundred_and_twenty">120dp</dimen>
+    <dimen name="view_width_one_hundred_and_thirty">130dp</dimen>
+    <dimen name="view_width_one_hundred_and_forty">140dp</dimen>
+    <dimen name="view_width_one_hundred_and_fifty">150dp</dimen>
+    <dimen name="view_width_one_hundred_and_sixty">160dp</dimen>
+    <dimen name="view_width_one_hundred_and_seventy">170dp</dimen>
+    <dimen name="view_width_one_hundred_and_eighty">180dp</dimen>
+    <dimen name="view_width_one_hundred_and_ninety">190dp</dimen>
+    <dimen name="view_width_two_hundred">200dp</dimen>
+    <dimen name="view_width_two_hundred_and_fifty">250dp</dimen>
+
+    <dimen name="develop_spacing_small">8dp</dimen>
+    <dimen name="develop_spacing">10dp</dimen>
+    <dimen name="develop_spacing_large">16dp</dimen>
+
+    <dimen name="develop_text_size_more_small">10sp</dimen>
+    <dimen name="develop_text_size_small">12sp</dimen>
+    <dimen name="develop_text_size_normal">14sp</dimen>
+    <dimen name="develop_text_size_large">16sp</dimen>
+    <dimen name="develop_text_size_more_large">18sp</dimen>
+    <dimen name="develop_text_size_largest">20sp</dimen>
+    <dimen name="develop_text_size_big_largest">40sp</dimen>
+    <dimen name="develop_text_size_big_largest_more">80sp</dimen>
+
+    <dimen name="develop_adapter_icon_size">24dp</dimen>
+    <dimen name="develop_progressbar_size">24dp</dimen>
+    <dimen name="develop_radius">6dp</dimen>
+    <dimen name="list_item_spacing">16dp</dimen>
+    <dimen name="list_item_spacing_half">8dp</dimen>
+</resources>

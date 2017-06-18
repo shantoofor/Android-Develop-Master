@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="IndicatorButton">
+        <attr name="layout_gravity" format="string" />
+
+        <attr name="iconButton" format="reference" />
+        <attr name="iconChecked" format="reference" />
+        <attr name="iconHeight" format="dimension" />
+        <attr name="iconWidth" format="dimension" />
+        <attr name="iconGravity" format="integer" />
+        <attr name="icon_layout_gravity" format="string" />
+
+        <attr name="titleButton" format="string" />
+        <attr name="titleColor" format="color" />
+        <attr name="titleColorChecked" format="color" />
+        <attr name="titleSize" format="dimension" />
+        <attr name="title_layout_gravity" format="string" />
+
+        <attr name="contentButton" format="string" />
+        <attr name="contentColor" format="color" />
+        <attr name="contentColorChecked" format="color" />
+        <attr name="contentSize" format="dimension" />
+        <attr name="content_layout_gravity" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="Banner">
+        <attr name="delay_time" format="integer" />
+        <attr name="scroll_time" format="integer" />
+        <attr name="is_auto_play" format="boolean" />
+        <attr name="title_background" format="color|reference" />
+        <attr name="title_textcolor" format="color" />
+        <attr name="title_textsize" format="dimension" />
+        <attr name="title_height" format="dimension" />
+        <attr name="indicator_width" format="dimension" />
+        <attr name="indicator_height" format="dimension" />
+        <attr name="indicator_margin" format="dimension" />
+        <attr name="indicator_drawable_selected" format="reference" />
+        <attr name="indicator_drawable_unselected" format="reference" />
+        <attr name="image_scale_type" format="enum">
+            <enum name="center" value="0" />
+            <enum name="center_crop" value="1" />
+            <enum name="center_inside" value="2" />
+            <enum name="fit_center" value="3" />
+            <enum name="fit_end" value="4" />
+            <enum name="fit_start" value="5" />
+            <enum name="fit_xy" value="6" />
+            <enum name="matrix" value="7" />
+        </attr>
+        <!--<attr name="indicator_animator" format="reference" />-->
+        <!--<attr name="indicator_animator_reverse" format="reference" />-->
+    </declare-styleable>
+
+    <declare-styleable name="HorizontalProgressBarWithNumber">
+        <attr name="progress_unreached_color" format="color" />
+        <attr name="progress_reached_color" format="color" />
+        <attr name="progress_reached_bar_height" format="dimension" />
+        <attr name="progress_unreached_bar_height" format="dimension" />
+        <attr name="progress_text_size" format="dimension" />
+        <attr name="progress_text_color" format="color" />
+        <attr name="progress_text_offset" format="dimension" />
+        <attr name="progress_text_visibility" format="enum">
+            <enum name="visible" value="0" />
+            <enum name="invisible" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="RoundProgressBarWidthNumber">
+        <attr name="radius" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="AislliRecyclerview">
+        <attr name="Padding" format="dimension" />
+        <attr name="EmptyView" format="reference" />
+        <attr name="PaddingTop" format="dimension" />
+        <attr name="ClipToPadding" format="boolean" />
+        <attr name="PaddingLeft" format="dimension" />
+        <attr name="PaddingRight" format="dimension" />
+        <attr name="PaddingBottom" format="dimension" />
+        <attr name="layout_moreProgress" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="PowerImageView">
+        <attr name="auto_play" format="boolean">true</attr>
+    </declare-styleable>
+
+    <declare-styleable name="CircleProgressBar">
+        <attr name="line_count" format="integer" />
+        <attr name="draw_progress_text" format="boolean" />
+        <attr name="line_width" format="dimension|reference" />
+        <attr name="background_color" format="color|reference" />
+        <attr name="circle_progress_start_color" format="color|reference" />
+        <attr name="circle_progress_end_color" format="color|reference" />
+        <attr name="circle_progress_text_size" format="dimension|reference" />
+        <attr name="circle_progress_text_color" format="color|reference" />
+        <attr name="circle_progress_text_format_pattern" format="string|reference" />
+        <attr name="circle_progress_stroke_width" format="dimension|reference" />
+        <attr name="circle_progress_background_color" format="color|reference" />
+
+        <attr name="style">
+            <enum name="line" value="0" />
+            <enum name="solid" value="1" />
+            <enum name="solid_line" value="2" />
+        </attr>
+
+        <attr name="progress_shader">
+            <enum name="linear" value="0" />
+            <enum name="radial" value="1" />
+            <enum name="sweep" value="2" />
+        </attr>
+
+        <attr name="progress_stroke_cap">
+            <enum name="butt" value="0" />
+            <enum name="round" value="1" />
+            <enum name="square" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="MLCircleProgressBar">
+        <attr name="mlpb_inner_radius" format="dimension" />
+        <attr name="mlpb_background_color" format="color" />
+        <attr name="mlpb_progress_color" format="color" />
+        <attr name="mlpb_progress_stoke_width" format="dimension" />
+        <attr name="mlpb_show_arrow" format="boolean" />
+        <attr name="mlpb_enable_circle_background" format="boolean" />
+        <attr name="mlpb_arrow_width" format="dimension" />
+        <attr name="mlpb_arrow_height" format="dimension" />
+
+        <attr name="mlpb_progress" format="integer" />
+        <attr name="mlpb_max" format="integer" />
+
+        <attr name="mlpb_progress_text_size" format="dimension" />
+        <attr name="mlpb_progress_text_color" format="color" />
+
+        <!--<attr name="mlpb_progress_text_offset" format="dimension"/>-->
+
+        <attr name="mlpb_progress_text_visibility" format="enum">
+            <enum name="visible" value="0" />
+            <enum name="invisible" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>

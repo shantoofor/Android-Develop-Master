@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--白色-->
+    <color name="Color_Dark_White">#FFFFFF</color>
+    <color name="Color_Light_White">#99FFFFFF</color>
+
+    <!--黑色-->
+    <color name="Color_Dark_Black">#000000</color>
+    <color name="Color_Light_Black">#99000000</color>
+
+    <!--黄色-->
+    <color name="Color_Dark_Yellow">#FFFF00</color>
+    <color name="Color_Light_Yellow">#99FFFF00</color>
+
+    <!--红色-->
+    <color name="Color_Dark_Red">#FF0000</color>
+    <color name="Color_Light_Red">#99FF0000</color>
+
+    <!--紫色-->
+    <color name="Color_Dark_Violet">#FF00FF</color>
+    <color name="Color_Light_Violet">#99FF00FF</color>
+
+    <!--蓝色-->
+    <color name="Color_Dark_Blue">#055AB4</color>
+    <color name="Color_Light_Blue">#33055AB4</color>
+
+    <!-- 灰色 -->
+    <color name="Color_Dark_Gray">#9A9A9A</color>
+    <color name="Color_Normal_Gray">#666666</color>
+    <color name="Color_Light_Gray">#559A9A9A</color>
+
+    <!--橘红色-->
+    <color name="Color_Dark_Orange">#D07A2D</color>
+    <color name="Color_Light_Orange">#99D07A2D</color>
+
+    <!--背景色-->
+    <color name="Develop_Color_Background_Normal">#EDEDED</color>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/view_height_thirty"
+    android:background="@drawable/bg_custom_view_gray">
+
+    <TextView
+        android:id="@+id/count_minus"
+        android:text="-"
+        android:padding="4dp"
+        android:gravity="center"
+        android:layout_width="@dimen/view_width_thirty"
+        android:layout_height="@dimen/view_height_thirty"
+        android:textSize="@dimen/develop_text_size_more_large" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/Color_Dark_Gray" />
+
+    <EditText
+        android:id="@+id/et_count"
+        android:text="1"
+        android:padding="4dp"
+        android:enabled="false"
+        android:gravity="center"
+        android:inputType="number"
+        android:background="@null"
+        android:cursorVisible="false"
+        android:layout_width="@dimen/view_width_ninety"
+        android:layout_height="@dimen/view_height_thirty"
+        android:textColor="@color/Color_Light_Red"
+        android:textSize="@dimen/develop_text_size_normal" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/Color_Dark_Gray" />
+
+    <TextView
+        android:id="@+id/count_add"
+        android:text="+"
+        android:padding="4dp"
+        android:gravity="center"
+        android:layout_width="@dimen/view_width_thirty"
+        android:layout_height="@dimen/view_height_thirty" />
+</LinearLayout>

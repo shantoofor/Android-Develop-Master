@@ -1,0 +1,105 @@
+<resources>
+    <!--Develop-master-->
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <!--状态栏底色-->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+
+        <!--导航栏底色-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!--导航栏上的标题颜色,这里的颜色还可以自己定义喜欢的类型-->
+        <item name="android:textColorPrimary">#fff</item>
+
+        <!--按钮选中或者点击获得焦点后的颜色-->
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--和 colorAccent相反，正常状态下按钮的颜色,如果我们的colorPrimary是深色，一般设置这里为白色-->
+        <item name="colorControlNormal">#fff</item>
+
+        <!--Button按钮正常状态颜色,根据项目来定义-->
+        <item name="colorButtonNormal">@color/accent_material_light</item>
+
+        <!--Activity窗口的颜色,注意：这个颜色值要通过color属性引进来,否则会报错-->
+        <item name="android:windowBackground">@android:color/white</item>
+
+        <!--EditText 输入框中字体的颜色，colorPrimary如果设置深色，一般字体设置为白色-->
+        <item name="editTextColor">@android:color/white</item>
+    </style>
+
+    <style name="TransParentTheme" parent="AppTheme">
+    </style>
+
+    <!--ToolBar 基本样式-->
+    <style name="Theme.ToolBar.Base" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:textColorSecondary">@color/colorAccent</item>
+        <item name="android:actionOverflowButtonStyle">@style/OverflowButtonStyle</item>
+        <item name="actionOverflowMenuStyle">@style/OverflowMenuStyle</item> <!--新增一个item，用于控制menu-->
+        <item name="android:textSize">20sp</item>
+        <item name="actionMenuTextColor">@color/Color_Dark_Red</item>
+        <!--ToolBar 中的文字颜色-->
+        <item name="android:textColorPrimary">@color/Color_Dark_Yellow</item>
+    </style>
+
+    <!--ToolBar 中 Menu 基本样式-->
+    <style name="Theme.ToolBar.Popup.Base" parent="@style/Widget.AppCompat.PopupMenu.Overflow">
+        <!--Popup菜单背景颜色 默认透明-->
+        <!--<item name="android:colorBackground">@android:color/transparent</item>-->
+        <item name="android:colorBackground">@color/colorAccent</item>
+        <!-- 弹出层背景颜色 -->
+        <!--<item name="android:popupBackground">@color/colorAccent</item>　测试无效-->
+        <!--Popup菜单文字大小 默认28sp-->
+        <item name="android:textSize">16sp</item>
+        <!--           Popup菜单文字颜色
+            设置 android:textColorPrimary
+                android:textColor
+          都行
+        -->
+        <!--<item name="android:textColorPrimary">@color/Color_Dark_Red</item>-->
+        <item name="android:textColor">@color/Color_Light_Black</item>
+        <item name="selectableItemBackground">@drawable/item_bg</item><!--Popup菜单Item选中背景，可以设置为颜色或一个drawable资源 测试无效-->
+        <!--<item name="android:dropDownHorizontalOffset">-10dp</item>-->
+    </style>
+    <!--修改toolbar弹出菜单的位置-->
+    <style name="OverflowMenuStyle" parent="Widget.AppCompat.Light.PopupMenu.Overflow">
+        <item name="overlapAnchor">false</item>  <!--把该属性改为false即可使menu位置位于toolbar之下-->
+    </style>
+    <!--修改toolbar菜单按钮的style-->
+    <style name="OverflowButtonStyle" parent="@android:style/Widget.ActionButton.Overflow">
+        <item name="android:src">@drawable/icon_unincom_flow</item>
+    </style>
+    <!--toolbar菜单按钮的颜色-->
+    <style name="ActionButton.Overflow" parent="android:style/Widget.Holo.Light.ActionButton.Overflow">
+    </style>
+    <!-- ScrollView的样式 -->
+    <style name="scrollview_style">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:fillViewport">true</item>
+        <item name="android:overScrollMode">never</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:fadingEdge">none</item>
+        <item name="android:cacheColorHint">#00000000</item>
+    </style>
+
+    <!--EditText样式-->
+    <style name="EditText_Style">
+        <item name="android:background">@null</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:textSize">@dimen/develop_text_size_normal</item>
+        <item name="android:textColor">@color/Color_Normal_Gray</item>
+        <item name="android:textColorHint">@color/Color_Light_Gray</item>
+    </style>
+    <!--EditText样式-->
+    <style name="EditText_Style2">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@null</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+</resources>
